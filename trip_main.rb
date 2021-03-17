@@ -8,6 +8,6 @@ plans = [
 ]
 
 disp_plans(plans) #プランの表示
-chosen_plan = choose_plan(plans)　#プランの番号を選択
-person_num = enter_number(chosen_plan) #予約人数を入力
+chosen_plan = choose_plan(plans) #プランの番号を選択
+person_num = num_of_people(chosen_plan) #予約人数を入力
 calculate_price(chosen_plan, person_num) #合計料金を表示

@@ -20,7 +20,7 @@ end
 
 
 # 予約人数を入力
-def enter_number(chosen_plan)
+def num_of_people(chosen_plan)
   puts <<~TEXT
   #{chosen_plan[:place]}旅行ですね。
   何名で予約されますか？
